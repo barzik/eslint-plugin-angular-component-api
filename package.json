@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-angular-component-api",
+  "version": "1.0.0",
+  "description": "Eslint rule for Angular 1.X components API enforcement",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "angular-component-api",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "xo && mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2",
+    "xo": "^0.18.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
