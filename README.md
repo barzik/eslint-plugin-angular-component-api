@@ -67,6 +67,7 @@ export default {
   template: require('./some.html'),
   ...
 };
+```
 
 Examples of correct code for this rule with the default { "musthaves": ["nameOfAPIAttribute] } option:
 
