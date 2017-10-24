@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "angular-component-api/angular-component-api-name: [{musthaves: ['nameOfAPIAttribute']}]
+        "angular-component-api/angular-component-api-name": [2, {musthaves: ["nameOfAPIAttribute"]}]
     }
 }
 ```
