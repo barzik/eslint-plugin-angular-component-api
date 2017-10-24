@@ -45,7 +45,7 @@ ruleTester.run('angular-component-api-name', rule, {
 			code: `import controller from './locales.controller.js';export default {bindings: {ngModel: '=',ngFieldRequired: '=',options: '=',},controller,template: require('./locales.html'),};`,
 			options: [{musthaves: ['name']}],
 			errors: [{
-				message: 'Use name for binding in component',
+				message: 'API in component should have name',
 				type: 'ExportDefaultDeclaration'
 			}]
 		}
